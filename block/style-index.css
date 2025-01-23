@@ -1,0 +1,15 @@
+.wp-block-permafrost06-countdown-timer .timer-container {
+  display: flex;
+}
+
+.wp-block-permafrost06-countdown-timer .unit {
+  text-align: center;
+}
+
+.wp-block-permafrost06-countdown-timer .value, .wp-block-permafrost06-countdown-timer .sep {
+  font-size: 5rem;
+}
+
+.wp-block-permafrost06-countdown-timer {
+    width: fit-content;
+}

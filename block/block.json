@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "permafrost06/countdown-timer",
+	"version": "0.1.0",
+	"title": "Countdown Timer Block",
+	"category": "widgets",
+	"icon": "clock",
+	"description": "A Countdown Timer Block.",
+	"attributes": {
+		"targetTime": {
+			"type": "string",
+			"default": "0"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"textdomain": "permafrost-countdown-plugin",
+	"editorScript": "file:./index.js",
+	"style": "file:./style-index.css",
+    "viewScript": "file:./frontend.js"
+}
